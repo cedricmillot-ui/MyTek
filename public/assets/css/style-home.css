@@ -121,7 +121,7 @@ h1 span, h2 span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 60px;
+  padding: 10px 15px;
   font-size: 0.8rem;
   color: var(--text-light);
   font-family: 'Orbitron', sans-serif;
@@ -133,7 +133,7 @@ h1 span, h2 span {
 
 .topbar-left, .topbar-right {
   display: flex;
-  gap: 25px;
+  gap: 10px;
   align-items: center;
 }
 
@@ -900,42 +900,47 @@ position: absolute;
 
 
 /* ════════════════════════════════════════════════════════════
-   11. SECTION: PARTNERS
+   11. SECTION: PARTNERS (OPTIMISÉE)
 ════════════════════════════════════════════════════════════ */
 
 .partners {
-  padding: 60px;
+  padding: 80px 20px; /* Plus d'espace pour respirer */
   background: white;
   text-align: center;
 }
 
 .partners h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: var(--dark);
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  text-transform: uppercase; /* Souvent plus élégant pour ce type de section */
+  letter-spacing: 1px;
 }
 
 .partners-grid {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 60px; /* Espacement un peu plus large */
   flex-wrap: wrap;
+  max-width: 1100px; /* On centre la grille sur les grands écrans */
+  margin: 0 auto;
 }
 
 .partners-grid img {
-  height: 45px;
-  width: auto;
-  filter: grayscale(1);
-  opacity: 0.6;
-  transition: filter 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+
+  height: auto;
+  max-height: 55px; 
+  max-width: 160px; 
+  object-fit: contain; 
 }
 
 .partners-grid img:hover {
   filter: grayscale(0);
   opacity: 1;
-  transform: scale(1.1) translateY(-4px); 
+  transform: scale(1.1) translateY(-5px); 
 }
+
 
 /* ════════════════════════════════════════════════════════════
    12. SECTION: SERVICES (HOME)
@@ -1083,6 +1088,11 @@ position: absolute;
   vertical-align: -3px;
 }
 
+/* On cible directement le dessin (path) à l'intérieur du SVG */
+.submit-icon path {
+  fill: #ffffff;
+}
+
 /* ════════════════════════════════════════════════════════════
    13. SECTION: IMD (DESIGN INTERACTIF - FOCUS NOIR & BLANC)
 ════════════════════════════════════════════════════════════ */
@@ -1201,7 +1211,6 @@ position: absolute;
     font-size: 0.95rem; 
     color: #666; 
     line-height: 1.7; 
-    max-width: 280px; 
 }
 
 /* --- BARRE DE FINITION BASSE --- */
@@ -1653,7 +1662,7 @@ position: absolute;
   color: var(--brand);
   font-weight: 700;
   margin-bottom: 18px;
-}
+} 
 
 .pricing-price span {
   font-size: 0.9rem;
@@ -1734,6 +1743,8 @@ position: absolute;
   resize: vertical;
   min-height: 120px;
 }
+
+
 
 .btn-submit {
   background: linear-gradient(90deg, #ff8a3c, var(--brand));
@@ -2524,7 +2535,6 @@ p {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-}
 
 @media (max-width: 992px) {
 
@@ -2712,4 +2722,5 @@ p {
   .hero-btns .btn-outline {
     width: 200px;
   }
+}
 }

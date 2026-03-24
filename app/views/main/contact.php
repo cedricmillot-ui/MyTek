@@ -4,7 +4,8 @@
     <p>Une question, un projet ? Nous vous répondons rapidement.</p>
   </div>
 
-  <div class="contact-wrapper">
+  <section class="contact-page"> <div class="contact-wrapper">
+    
     <div class="contact-info">
       <h2>Nos coordonnées</h2>
       <ul class="contact-info-list">
@@ -38,27 +39,26 @@
         </li>
       </ul>
 
-<div class="contact-socials">
-    <a href="https://www.linkedin.com/in/turgay-yildiz-2b158419a/" target="_blank" rel="noopener" aria-label="LinkedIn">
-        <svg viewBox="0 0 512 512" class="social-icon" width="24" height="24" fill="currentColor">
+      <div class="contact-socials">
+        <a href="https://www.linkedin.com/in/turgay-yildiz-2b158419a/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 512 512" class="social-icon" width="24" height="24" fill="currentColor">
             <path d="M416 32H96C60.7 32 32 60.7 32 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM150.4 364.8h-51.2V204.8h51.2v160zm-25.6-182.4c-16.4 0-29.6-13.2-29.6-29.6s13.2-29.6 29.6-29.6 29.6 13.2 29.6 29.6-13.2 29.6-29.6 29.6zM364.8 364.8h-51.2V284.8c0-19.1-0.4-43.8-26.7-43.8-26.7 0-30.8 20.9-30.8 42.4v81.4h-51.2V204.8h49.1v21.9h0.7c6.8-12.9 23.5-26.5 48.3-26.5 51.7 0 61.3 34.1 61.3 78.4v86.2z"/>
-        </svg>
-    </a>
+          </svg>
+        </a>
 
-    <a href="https://www.instagram.com/mytek_energies/" target="_blank" rel="noopener" aria-label="Instagram">
-        <svg viewBox="0 0 512 512" class="social-icon" width="24" height="24" fill="currentColor">
+        <a href="https://www.instagram.com/mytek_energies/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 512 512" class="social-icon" width="24" height="24" fill="currentColor">
             <path d="M256 109.3c47.8 0 53.4 0.2 72.3 1.1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1.1 24.5 1.1 72.3s-0.2 53.4-1.1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2-3.2 8.4-7.1 14.3-13.4 20.6-6.3 6.3-12.2 10.1-20.6 13.4-6.3 2.5-15.8 5.4-33.2 6.2-18.9 0.9-24.5 1.1-72.3 1.1s-53.4-0.2-72.3-1.1c-17.4-0.8-26.9-3.7-33.2-6.2-8.4-3.2-14.3-7.1-20.6-13.4-6.3-6.3-10.1-12.2-13.4-20.6-2.5-6.3-5.4-15.8-6.2-33.2-0.9-18.9-1.1-24.5-1.1-72.3s0.2-53.4 1.1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2 18.9-0.9 24.5-1.1 72.3-1.1m0-45.3c-48.6 0-54.7 0.2-73.8 1.1-19 0.9-32 3.9-43.4 8.3-11.8 4.6-21.7 10.7-31.7 20.6-9.9 9.9-16.1 19.9-20.6 31.7-4.4 11.4-7.4 24.4-8.3 43.4-0.9 19.1-1.1 25.2-1.1 73.8s0.2 54.7 1.1 73.8c0.9 19 3.9 32 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32-8.3-43.4-4.6-11.8-10.7-21.7-20.6-31.7-9.9-9.9-19.9-16.1-31.7-20.6-11.4-4.4-24.4-7.4-43.4-8.3-19.1-0.9-25.2-1.1-73.8-1.1zm0 86.7c-54.1 0-98 43.9-98 98s43.9 98 98 98 98-43.9 98-98-43.9-98-98-98zm0 150.7c-29.1 0-52.7-23.6-52.7-52.7s23.6-52.7 52.7-52.7 52.7 23.6 52.7 52.7-23.6 52.7-52.7 52.7zm126.7-172.7c0 10.5-8.5 19-19 19s-19-8.5-19-19 8.5-19 19-19 19 8.5 19 19z"/>
-        </svg>
-    </a>
+          </svg>
+        </a>
 
-    <a href="https://www.google.com/search?kgmid=/g/11lf7npd0q" target="_blank" rel="noopener" aria-label="Google">
-        <svg viewBox="0 0 488 512" class="social-icon" width="24" height="24" fill="currentColor">
+        <a href="https://www.google.com/search?kgmid=/g/11lf7npd0q" target="_blank" rel="noopener" aria-label="Google">
+          <svg viewBox="0 0 488 512" class="social-icon" width="24" height="24" fill="currentColor">
             <path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 153 68.3 153 256s105.5 203.4 243.5 118.5c16.1-9.9 28.5-24 35.9-40.5H248v-90.2h237c2.3 12.7 3.9 24.9 3.9 41.4z"/>
-        </svg>
-    </a>
-</div>
-
-    <div class="form-box">
+          </svg>
+        </a>
+      </div>
+    </div> <div class="form-box">
       <h2>Envoyez-nous un message</h2>
       <form method="POST">
         <div class="form-row">
@@ -85,5 +85,5 @@
         </button>
       </form>
     </div>
-  </div>
-</section>
+
+  </div> </section>
