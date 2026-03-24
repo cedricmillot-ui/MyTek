@@ -2075,25 +2075,20 @@ footer {
   color: var(--brand);
 }
 
-.footer-legal-links {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
-    gap: 15px; 
-    list-style: none;
-    padding: 20px 0;
-}
-
+/* Appliquez ceci à vos liens de footer ou de menu */
 .footer-legal-links a {
     display: inline-block;
-    padding: 12px 16px; 
+    min-width: 44px;  /* Standard WCAG minimum */
+    min-height: 44px; /* Standard WCAG minimum */
+    padding: 12px;    /* Crée une "bulle" cliquable tout autour du texte */
     text-decoration: none;
-    color: #666;
-    font-size: 14px;
-    
+}
 
-    min-width: 44px;
-    min-height: 44px;
+/* Assurez un espacement entre les éléments */
+.footer-legal-links {
+    display: flex;
+    gap: 15px; /* Espace minimal de sécurité entre deux cibles */
+    flex-wrap: wrap;
 }
 
 
