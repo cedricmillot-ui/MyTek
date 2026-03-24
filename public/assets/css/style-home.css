@@ -904,7 +904,7 @@ position: absolute;
 ════════════════════════════════════════════════════════════ */
 
 .partners {
-  padding: 80px 20px; /* Plus d'espace pour respirer */
+  padding: 80px 20px; 
   background: white;
   text-align: center;
 }
@@ -1662,7 +1662,7 @@ position: absolute;
   color: var(--brand);
   font-weight: 700;
   margin-bottom: 18px;
-} 
+}
 
 .pricing-price span {
   font-size: 0.9rem;
@@ -1743,8 +1743,6 @@ position: absolute;
   resize: vertical;
   min-height: 120px;
 }
-
-
 
 .btn-submit {
   background: linear-gradient(90deg, #ff8a3c, var(--brand));
@@ -1897,6 +1895,7 @@ height: 30px;
   font-size: 1rem;
   text-decoration: none;
   transition: all 0.25s ease;
+  color: var(--brand);
 }
 
 .contact-socials a:hover {
